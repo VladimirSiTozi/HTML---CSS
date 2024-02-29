@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .card {
+            background-color: lightblue;
+            border-radius: 0.4em;
+            padding: 6px 16px;
+            border: 2px solid blue;
+            width: 200px;
+        }
+
+        .fixed {
+            box-sizing: border-box;
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="card">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo obcaecati sapiente distinctio nemo ad laudantium, eum error eos vitae debitis? Magnam sapiente incidunt ullam, magni ipsa autem animi maxime enim!</p>
+        <p class="date">10.10.2029</p>
+    </div>
+
+    <div class="card fixed">
+        <h2>Lorem, ipsum dolor.</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo obcaecati sapiente distinctio nemo ad laudantium, eum error eos vitae debitis? Magnam sapiente incidunt ullam, magni ipsa autem animi maxime enim!</p>
+        <p class="date">10.10.2029</p>
+    </div>
+    
+</body>
+</html>

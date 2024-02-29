@@ -1,0 +1,164 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: PT Sans;
+}
+
+h1, h2, h3, h4 {
+    font-family: PT Serif;
+}
+    
+
+.header {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.logo img{
+    width: 85px;    
+}
+
+.navbar {
+    display: flex;
+    gap: 1.5em;
+    text-transform: uppercase;
+    padding: 20px 20px 0 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.header section {
+    width: 800px;
+    padding-left: 124px;
+    padding-bottom: 200px;
+}
+
+.header h1 {
+    padding-top: 0px;
+    font-size: 56px;
+    font-weight: normal;
+}
+
+.header p{
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 24px;
+    line-height: 1.5em;
+}
+
+.main-one {
+    display: flex;
+    gap: 2em;
+    margin: 6em 10em;
+}
+
+.main-one h2 {
+    font-size: 80px;
+    padding-bottom: 0.5em;
+    font-weight: normal;
+}
+
+.main-one p {
+    font-size: 18px;
+    padding-bottom: 2.5em;
+    line-height: 1.5;
+}
+
+.main-one a {
+    padding: 0.5em;
+    font-weight: bold;
+    color: #B0825C;
+    text-decoration: none;
+    border: 2px solid #B0825C;
+}
+
+.main-two {
+    border-top: 1px solid #B0825C;
+    padding: 0 8em 4em 0;
+}
+
+.main-two h2 {
+    display: flex;
+    color: #B0825C;
+    font-weight: 500;
+    font-size: 52px;
+    padding: 1em 0;
+}
+
+.main-two p{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.main-two .text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-two .pics {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.main-two .pics img {
+    width: 125px;
+    background-color: #DDDDDD;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.option-footer {
+    background-color: #171720;
+    color: white;
+    font-weight: normal;
+    display: flex;
+    padding: 56px 216px 80px 216px;
+    gap: 2em;
+}
+
+.option-footer h4 {
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 36px;
+}
+
+.option-footer .box {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+}
+
+.option-footer a {
+    color: gray;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.footer {
+    background-color: #171720;
+    color: gray;
+    border-top: 1px solid gray;
+    padding: 20px 0 20px 216px;
+}

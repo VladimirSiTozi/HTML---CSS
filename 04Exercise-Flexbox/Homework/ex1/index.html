@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Flexbox Layou</title>
+
+    <style>
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 2em;
+            background-color: rgb(202, 202, 202);
+            display: flex;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
+
+        body > * {
+            background-color: white;
+            border-radius: 0.3em;
+            box-shadow: 0 0 1em gray;
+            padding: 1em;
+            text-transform: uppercase;
+        }
+
+        body > header {
+            min-height: 100px;
+        }
+
+        body > header,
+        body > footer {
+            flex: 1 0 100%;
+        }
+
+        body > main {
+            flex: 1 0 60%;
+            min-height: 200px;
+        }
+
+        body > aside {
+            flex: 1 1 auto;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <header>Header</header>
+
+    <main>Main</main>
+
+    <aside>Aside</aside>
+
+    <footer>Footer</footer>
+
+    
+</body>
+</html>

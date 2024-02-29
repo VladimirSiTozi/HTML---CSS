@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+img {
+    width: 290;
+    height: 290px;
+}
+
+
+article {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: #1881B6;
+    border-radius: 12px;
+    border: 4px solid black;
+    padding: 26px 32px;
+    display: flex;
+}
+
+section {
+    margin-right: 28px;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+section > p {
+    font-size: 15px;
+    text-indent: 36px;
+    line-height: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button.sales {
+    background-color: #B6416D;
+    color: white;
+}
+
+.button.more {
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        width: 250;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    article {
+        flex-direction: column-reverse;
+    }
+
+    img {
+        margin: 0 auto;
+        width: 290;
+        height: 290px;
+    }
+    
+}

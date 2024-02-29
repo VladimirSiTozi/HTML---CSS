@@ -1,0 +1,16 @@
+body {
+    background: rgb(36, 205, 13);
+    color: #fff;
+}
+
+p {
+    color: rgb(13, 113, 149);
+}
+
+.box {
+    background: white;
+}
+
+#header_my-html-document-title{
+    font-size: 40px;
+}

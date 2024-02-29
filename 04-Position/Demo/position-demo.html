@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posotion</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            padding: 12px;
+            border: 2px dashed black;
+            margin-bottom: 40px;
+        }
+
+        .container img {
+            width: 350px;
+        }
+
+        /* STATIC EXAMPLE */
+        .static {
+            background-color: lightblue;
+        }
+
+        .static img {
+            /* position is static to all elements by default */
+            position: static;
+            top: 20px;
+            left: 20px;
+            /* positioning doesn't work, due to static postion */
+        }
+
+        /* RELATIVE EXAMPLE */
+        .relative {
+            background-color: lightcoral;
+        }
+
+        .relative img {
+            position: relative;
+            top: 50px;
+            left: 50px;
+        }
+
+        /* ABSOLUTE EXAMPLE */
+        .absolute {
+            background-color: lightgreen;
+            position: relative;
+        }
+
+        .absolute img {
+            position: absolute;
+            width: 150px;
+            top: 35px;
+            right: 50px;
+        }
+
+        /* Fixed EXAMPLE */
+        .fixed {
+            background-color: lightskyblue;
+        }
+
+        .fixed img {
+            position: fixed;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            bottom: 35px;
+            right: 50px;
+        }
+
+        /* Sticky EXAMPLE */
+        .sticky {
+            background-color: rgb(255, 255, 147);
+        }
+
+        .sticky p {
+            padding: 12px;
+            font-size: 32px;
+        }
+
+        .sticky img {
+            position: sticky;
+            top: 20px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container static">
+        <h2>Static Position</h2>
+
+        <img src="https://images.unsplash.com/photo-1682687220777-2c60708d6889?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+        <button>Click me!</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+    </div>
+
+    <div class="container relative">
+        <h2>Relative Position</h2>
+
+        <img src="https://images.unsplash.com/photo-1682687220777-2c60708d6889?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+        <button>Click me!</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+    </div>
+
+    <div class="container absolute">
+        <h2>Relative Absolute</h2>
+
+        <img src="https://images.unsplash.com/photo-1682687220777-2c60708d6889?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+        <button>Click me!</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+    </div>
+
+    <div class="container fixed">
+        <h2>Relative Fixed</h2>
+
+        <img src="https://images.unsplash.com/photo-1682687220777-2c60708d6889?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+        <button>Click me!</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+    </div>
+
+    <div class="container sticky">
+        <h2>Relative Sticky</h2>
+
+        <img src="https://images.unsplash.com/photo-1682687220777-2c60708d6889?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D" alt="">
+
+        <button>Click me!</button>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores ex accusantium fuga. Qui maiores cum odit vitae, sit quibusdam blanditiis quod cupiditate placeat adipisci animi porro culpa alias sint!</p> 
+    </div>
+    
+</body>
+</html>

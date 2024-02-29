@@ -1,0 +1,32 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+table, th, td {
+    width: 60em;
+    height: 20px;
+    font-weight: 100;
+    border: 1px solid rgb(145, 145, 145);
+    border-collapse: collapse;;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(225, 225, 225);
+}
+
+tr:first-child {
+    background-color: rgb(145, 145, 145);
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 3px solid rgb(221,221,221);
+    padding-left: 3em;
+}
+

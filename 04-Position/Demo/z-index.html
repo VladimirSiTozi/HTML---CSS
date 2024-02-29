@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            padding: 12px;
+        }
+
+        .container {
+            position: relative;
+            border: 2px dashed blueviolet;
+            height: 40px;
+        }
+
+        .item {
+            width: 50px;
+            height: 50px;
+            font-weight: bold;
+            border: 2px solid black;
+            border-radius: 6px;
+            padding: 6px;
+        }
+
+        .el1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: lightblue;
+            /* z-index: 1; */
+        }
+
+        .el2 {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background-color: lightcoral;
+            /* z-index: -1; */
+        }
+
+        .el3 {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: lightcyan;
+            /* z-index: 1; */
+        }
+
+        .el4 {
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            background-color: lightgoldenrodyellow;
+            /* z-index: -1; */
+        }
+
+        .el5 {
+            position: absolute;
+            top: 90px;
+            left: 90px;
+            background-color: lightgray;
+            /* z-index: 1; */
+        }
+
+        .el6 {
+            position: absolute;
+            top: 110px;
+            left: 110px;
+            background-color: lightgreen;
+            /* z-index: -1; */
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <section class="container">
+        <div class="item el1">1</div>
+        <div class="item el2">2</div>
+        <div class="item el3">3</div>
+        <div class="group">
+            <div class="item el4">4</div>
+            <div class="item el5">5</div>
+            <div class="item el6">6</div>
+        </div>    
+    </section>
+    
+</body>
+</html>

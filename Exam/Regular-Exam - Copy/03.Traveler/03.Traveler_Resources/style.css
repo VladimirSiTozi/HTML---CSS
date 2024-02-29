@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: karla;
+}
+
+body {
+    background-image: url(images/poster.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Cormorant Infant";
+}
+
+p {
+    font-size: 18px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+}
+
+.site-header {
+    padding: 1em 3em;
+}
+
+.site-header nav ul {
+    display: flex;
+    gap: 3em;
+    padding: 2em;
+}
+
+.site-header nav li{
+    list-style: none outside;
+}
+
+.site-header nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.site-title a{
+    display: block;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    text-indent: -220px;
+    background-image: url(images/logo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-section.banner h2,
+.site-section.banner p {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+}
+
+.site-section.banner h2 {
+    font-size: 90px;
+    padding-bottom: 1em;
+}
+
+.site-section.banner p {
+    padding: 5em;
+}
+
+.site-section.customer {
+    background-color: #F8F0E9;
+}
+
+.container {
+    padding-top: 2em;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.site-section.customer .container h2 {
+    padding: 1em 0 2em 0;
+    font-size: 56px;
+    line-height: 0.9;
+    font-style: italic;
+}
+
+.site-section.workweek {
+    background-color: #E14747;
+    color: white;
+    text-align: center;
+}
+
+.site-section.workweek .container {
+    width: 280px;
+}
+
+.site-section.workweek .container h4 {
+    padding-top: 1em;
+    font-family: karla;
+    font-size: 20px;
+}
+
+.site-section.workweek .container p {
+    padding: 2em 0 3em 0;
+}
+
+.site-section.desc {
+    background-color: #F8F0E9;
+}
+
+.site-section.desc .container {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    padding: 3em 0;
+} 
+
+.site-section.desc .pic  img{
+    width: 100%;
+}
+
+.site-section.desc h2 {
+    font-size: 64px;
+    padding: 0.5em 0.4em;
+    text-align: center;
+}
+
+.site-section.desc p {
+    margin-bottom: 2em;
+}
+
+
+.button ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .button ul li:first-child {
+    margin-right: auto;
+  }
+  
+  .button ul li {
+    margin-top: 60px;
+  }
+
+.button ul li a{
+    margin-bottom: 4em;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 16px;
+} 
+
+
+.site-section.find {
+    background-color: #E14747;
+    color: white;
+    text-align: center;
+}
+
+.site-section.find .container {
+    width: 1100px;
+}
+
+.site-section.find .container h2 {
+    padding-top: 1em;
+    font-size: 64px;
+}
+
+.site-section.find .container p {
+    padding: 2em;
+}
+
+.site-section.find .find-button {
+    padding: 4em 0;
+}
+
+.site-section.find .find-button a {
+    text-decoration: none;
+    color: black;
+    padding: 1em 1.5em;
+    background-color: #FAD87A;
+    border: 1px solid #FAD87A;
+    border-radius: 36px;;
+}
+
+.site-section.site-footer {
+    background-color: #352B2A;
+    color: white;
+    padding: 2em 8em;
+}
+
+.site-section.site-footer img {
+    width: 80px;
+    height: auto;
+}
+
+.site-section.site-footer p{
+    font-size: 16px;
+    padding-top: 2em;
+}
+
+.site-section.site-footer p:last-child {
+    color: gray;
+}

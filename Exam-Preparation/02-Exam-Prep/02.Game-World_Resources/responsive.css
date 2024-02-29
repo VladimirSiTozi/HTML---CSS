@@ -1,0 +1,17 @@
+@media (max-width:600px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tm-cta-section {
+        width: auto;
+    }
+
+    .tm-cta-section {
+        max-width: 70%;
+    }
+
+}
+

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+h2 {
+    color: red;
+}
+
+/* Example 1  */
+/* @media (max-width: 600px){
+    h2 {
+        color: green;
+    }
+} */
+
+/* Example 2 - max-width, min-width */ 
+@media screen and (max-width: 600px){
+    h2 {
+        color: darkgoldenrod;
+    }
+}
+
+/* Example 3 - orientation: landscape, portrait*/ 
+@media screen and (orientation: landscape){
+    h2 {
+        background-color: lightcoral;
+    }
+}
+

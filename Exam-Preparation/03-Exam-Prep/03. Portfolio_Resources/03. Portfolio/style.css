@@ -1,0 +1,84 @@
+@import url('https://fonts.google.com/specimen/Raleway');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5;
+    max-width: 1584px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+img {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.column {
+    display: flex;
+    background-color: #EFEFEF;
+    gap: 2em;
+    height: 640px;
+}
+
+.column .bilbord-pic {
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.column .text {
+    padding: 5em;
+}
+
+.column .pic {
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.box-one {
+    flex: 1 1 40%;
+}
+
+.text h2{
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight:normal;
+    padding-bottom: 32px;
+}
+
+.box-two {
+    width: 795px;
+    height: 600px;
+}
+
+.text p{
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+
+.text:nth-child(2) h2{
+    text-align: center;
+}
+
+.box-one.pic {
+    padding: 4em;
+}
+
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Scheme</title>
+    <style>
+
+        body {
+            padding: 2em;
+        }
+
+        div {
+            padding: 2em;
+            border: 1px dashed black;
+        }
+
+        .outside {
+            background-color: orange;
+        }
+
+        .border {
+            background-color: antiquewhite;
+        }
+
+        .padding {
+            background-color: lightgreen;
+        }
+
+        .content {
+            background-color: lightblue;
+        }
+
+        .box {
+            border: 2px solid black;
+            margin: 2em;
+            padding: 2em;
+            margin: 2em auto;
+            max-width: 400px;
+        }
+
+        .sizing-normal {
+            width: 350px;
+            height: 150px;
+            margin: 10px;
+            padding: 25px;
+            border: 5px solid black;
+
+        }
+
+        .sizing-fixed {
+            box-sizing: border-box;
+            width: 350px;
+            height: 150px;
+            margin: 10px;
+            padding: 25px;
+            border: 5px solid black;
+
+        }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="outside">
+        <div class="border">
+            <div class="padding">
+                <div class="content">
+                    <p>Box Model Scheme</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="box">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, quo! Laudantium similique ullam molestias quasi praesentium vero a accusantium cum, labore aliquid laboriosam, repellendus natus incidunt. Nobis expedita eum odit.
+    </div>
+
+    <div class="sizing-normal">
+        sizing normal
+    </div>
+
+    <div class="sizing-fixed">
+        sizing fixed
+    </div>
+
+</body>
+</html>

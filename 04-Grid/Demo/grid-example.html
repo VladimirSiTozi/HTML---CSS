@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(6, 100px);
+            grid-template-rows: repeat(6, auto);
+            gap: 8px;
+            grid-template-areas: 
+            "head head head head head head"
+            "side .  content content content content"
+            "side .  content content content content"
+            "side .  content content content content"
+            "side .  content content content content"
+            "foot foot foot foot foot foot";
+        }
+
+        .header {
+            background-color: aqua;
+            grid-area: head;
+        }
+
+        .sidebar {
+            background-color: lightcoral;
+            height: 200px;
+            grid-area: side;
+        }
+
+        .content {
+            grid-area: content;
+        }
+
+        .footer {
+            background-color: lightgreen;
+            height: 100px;
+            grid-area: foot;
+        }
+
+        div {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    
+    <h2>Area example</h2>
+
+    <section class="grid-container">
+        <div class="header"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni perspiciatis ut omnis, quod ea est distinctio dolore soluta porro impedit molestias et eum facilis debitis assumenda velit autem eaque fuga.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque commodi in odit ipsa delectus! Tempora provident ratione pariatur officiis quos quod deleniti, laborum eum, nesciunt non odit blanditiis adipisci quisquam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum blanditiis consequatur reprehenderit, quos eveniet aperiam nisi distinctio ipsam at repellat adipisci velit, molestiae quidem deserunt saepe delectus non accusamus.</p>
+        </div>
+        <div class="sidebar">SideBar</div>
+        <div class="content">Content</div>
+        <div class="footer">Footer</div>
+    </section>
+
+    
+</body>
+</html>

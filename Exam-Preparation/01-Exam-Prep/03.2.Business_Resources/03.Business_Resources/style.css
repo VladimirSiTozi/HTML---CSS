@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 "PT Sans", sans-serif;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT Serif";
+}
+
+.site-section.banner {
+    padding-bottom: 8em;
+}
+
+.site-section.banner h2 {
+    font-size: 3.4em;
+    line-height: 1.26em;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.site-section.banner p {
+    font-size: 1.2em;
+    max-width: 39.5rem;
+
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.site-section.banner .container {
+    color: white;
+}
+
+.site-section {
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+.site-header nav li{
+    list-style: none outside;
+}
+
+.site-header nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.site-title a{
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -220px;
+    background-image: url(images/logo.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-section.columns {
+    border-bottom: 1px solid gray;
+    background-color: white;
+}
+
+.column-container{
+    display: flex;
+    gap: 2em;
+    padding-bottom: 4em;
+}
+
+.column-container h2 {
+    color: #171720;
+}
+
+.column-container p {
+    padding: 36px 0;
+}
+
+.column-container a {
+    color: #B0825C;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #B0825C;
+    padding: 0.5em;;
+}
+
+.site-section.pics {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.site-section.pics img {
+    background-color: gray;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+    padding: 0.5em;
+}
+
+.site-section.sponsors,
+.site-section.partners { 
+    background-color: white;
+    text-align: center;
+}
+
+.site-section.sponsors h2,
+.site-section.partners h2 {
+    color: #B0825C;
+}
+
+.site-footer {
+    background-color: #171720;
+}
+
+.site-footer h4 {
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.site-footer ul {
+    list-style: none;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.site-footer .container {
+    padding: 0.5em;
+    color: gray;
+}
+
+.site-footer ul li {
+    padding-bottom: 4px;
+}
+.site-footer{
+    border-top: 1px solid rgb(255, 255, 255, 0.6);
+}
